@@ -1,16 +1,55 @@
 # VolunTrack
 
-*Track Your Time, Make a Difference*
-
-VolunTrack is a smart volunteer hours tracking app that ensures accountability and task management with GPS integration, helping non-profits manage volunteers efficiently.
+**Tagline**: Track Your Time, Make a Difference  
+**Description**: VolunTrack is a smart volunteer hours tracking app with GPS integration that helps non-profits efficiently manage volunteers and tasks.
 
 ## Features
+- **GPS Clock In/Out**: Volunteers log their hours by clocking in and out at assigned locations.
+- **Task Management**: Admins assign tasks to volunteers, who can update their statuses.
+- **Geofencing**: Ensure volunteers are within assigned areas when clocking in.
+- **Volunteer Profiles**: Track volunteer contributions over time and generate reports.
 
-- GPS Clock In/Out: Volunteers log their hours by clocking in and out at assigned locations.
-- Task Management: Admins can assign tasks to volunteers, and volunteers can update task statuses.
-- Geofencing: Ensure volunteers are within assigned areas when clocking in.
-- Volunteer Profiles: Track volunteer contributions over time and generate reports.
-- Admin Dashboard: For organizations to manage volunteers, tasks, and view time logs.
+## Tech Stack
+- **Backend**: Django, PostgreSQL
+- **GPS Tracking**: Geopy
+- **Frontend**: (Future work) React for web, React Native for mobile.
+
+## Getting Started
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-repo/voluntrack.git
+    cd voluntrack
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Set up PostgreSQL and update `voluntrack/settings.py` with your database credentials.
+
+4. Apply migrations:
+
+    ```bash
+    python manage.py migrate
+    ```
+
+5. Create a superuser:
+
+    ```bash
+    python manage.py createsuperuser
+    ```
+
+6. Run the development server:
+
+    ```bash
+    python manage.py runserver
+    ```
+
+7. Access the admin dashboard at `http://127.0.0.1:8000/admin/` and start managing volunteers, tasks, and time logs.
 
 ## Tech Stack
 
