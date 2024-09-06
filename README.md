@@ -73,6 +73,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to reach out to us at info@voluntrack.org.
-
+If you have any questions or suggestions, please feel free to reach out me. 
 Happy tracking!
